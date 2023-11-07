@@ -1,0 +1,258 @@
+body, h1, h2, p, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Common styles for both light and dark modes */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    transition: background-color 0.5s, color 0.5s;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+ul li{
+    margin-left:120px;
+    margin-right: 120px;
+}
+
+.logo {
+    position: absolute;
+    top: 30px; /* Adjust the top position as needed */
+    left: 35px; /* Adjust the left position as needed */
+    width: 200px; /* Adjust the width as needed */
+    height: 116px; /* Adjust the height as needed */
+}
+
+@keyframes gradientBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+header h1 {
+    font-size: 3.5em;
+    margin-bottom: 10px;
+}
+
+header h2 {
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    color: rgb(255, 255, 255);
+}
+
+nav ul li a:hover {
+    color: #FF6B6B;
+}
+
+/* Style the sections */
+section {
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(255, 255, 255);
+    border-radius: 1px;
+    margin: 70px;
+    transition: background-color 0.5s;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #e7e8e9;
+}
+
+p {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #e7e8e9;
+}
+
+/* Style the footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    font-size: 0.9em;
+}
+
+/* Style links with animation */
+a {
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #f5fafc;
+}
+
+/* Additional styles for light mode */
+body.light-mode {
+    background-color: #fff5f5;
+    color: #fcfdff;
+}
+
+header.light-mode {
+    background: linear-gradient(45deg, #0078d4, #00a5d9);
+    color: #e91a1a;
+}
+
+section.light-mode {
+    background-color: #fff;
+}
+
+a.light-mode {
+    color: #f1f3f5;
+}
+
+.heading {
+    margin: 10px 20px 30px;
+    display: inline-block;
+    background: linear-gradient(45deg, #FF9A8B, #FF6B6B, #FF5151, #FF0000);
+    -webkit-background-clip: text;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
+    color: transparent;
+    text-align: center;
+}
+
+.heading, .heading2 {
+    margin-bottom: 10px;
+}
+
+.heading2 {
+    color: #FF6B6B;
+    margin-bottom: 50px;
+    font-size: 1.5em;
+}
+
+#aboutus h2 {
+    color: rgb(199, 223, 113);
+}
+
+#aboutus {
+    text-align: center;
+    padding: 20px;
+}
+
+#aboutus p {
+    text-align: center;
+}
+
+body {
+    background-image: url('./ac.jpg');
+    background-size: cover;
+    background-repeat: repeat-y;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    /* Your content styles */
+}
+
+#research {
+    text-align: center;
+    padding: 20px;
+}
+
+#research h2 {
+    color: rgb(199, 223, 113);
+}
+
+#methodology h2 {
+    color: rgb(199, 223, 113);
+}
+
+#methodolgy p {
+    text-align: center;
+}
+
+#results h2 {
+    color: rgb(199, 223, 113);
+}
+
+#results p {
+    text-align: center;
+}
+
+#publications h2 {
+    color: rgb(199, 223, 113);
+}
+
+#contact h2 {
+    color: rgb(199, 223, 113);
+}
+
+#methodology {
+    text-align: center;
+    padding: 20px;
+}
+
+#results {
+    text-align: center;
+    padding: 20px;
+}
+
+#publications {
+    text-align: center;
+    padding: 20px;
+}
+
+#contact {
+    text-align: center;
+    padding: 20px;
+}
+
+#aboutus p {
+    text-align: center;
+}
+
+#research p{
+    text-align: center;
+}
+
+#methodology{
+    text-align: center;
+}
+
+#results{
+    text-align: center;
+}
+
+#Boys .profiles img {
+    max-width: 100px; /* Set the maximum width to reduce image size */
+    margin-right: 20px; /* Add margin for spacing */
+}
+
+.centered {
+    text-align: center;
+    color: rgb(199, 223, 113);
+}
+
+#Boys .profiles {
+    display: flex;            /* Use a flex container */
+    justify-content: center;  /* Horizontally center the images */
+    gap: 100px;                /* Add spacing between the images */
+}
